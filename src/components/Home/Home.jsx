@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header/Header";
 import Services from "../Services/Services";
-import Slider from "../Slider/Slider";
+import Banner from "../Slider/Slider";
 import Footer from "../Footer/Footer";
 
 class Home extends Component {
@@ -9,7 +9,7 @@ class Home extends Component {
         return(
             <div>
                 <Header />
-                <Slider />
+                <Banner />
                 <Services />
                 <Footer />
             </div>
