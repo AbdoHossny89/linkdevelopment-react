@@ -42,13 +42,13 @@ function HomeBanner() {
         {slides.slides.map(function (slide, id) {
           return (
             <div key={slide.id}>
-              <div className="slide" >
+              <div className={"slide slide" + slide.order}>
                 <div className="container-xl">
                   <div className="wrap-slide">
                     <div className="decore"></div>
 
                     <div className="left-section">
-                      <h5>{slide.category}</h5>
+                      <h5 style={{color:"#"+slide.colorCode}}>{slide.category}</h5>
                       <h2>{slide.title}</h2>
                       <p>{slide.brief}</p>
                       <div className="slide-action">
