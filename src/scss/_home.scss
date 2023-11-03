@@ -5,7 +5,7 @@
     background-image: URL(../../public/images/txt-service.svg), URL(../../public/images/bg-service.jpg);
     background-position: top left -80px, top left;
     background-repeat: no-repeat, no-repeat;
-
+background-attachment:local,fixed ;
     position: relative;
 
     @media (max-width: 991.98px) {

@@ -9,8 +9,8 @@ class Footer extends Component {
                     <div className="col-md-3">
                         <div className="logo_footer">
                             <div className="mb-3">
-                                <a href="#">
-                                    <img src="images/logo-footer.svg" alt="" srcset="" />
+                                <a href="true">
+                                    <img src="images/logo-footer.svg" alt=""  />
                                 </a>
                             </div>
                             <p>We make technology produce productive, adaptable and sustainable business experiences.</p>

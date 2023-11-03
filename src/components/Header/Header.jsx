@@ -31,10 +31,10 @@ class Header extends Component {
                     <nav className="actions">
                         <ul>
                             <li>
-                                <a href="#" tabindex="-1" aria-disabled="true">Login</a>
+                                <a href="#" tabIndex="-1" aria-disabled="true">Login</a>
                             </li>
                             <li>
-                                <a href="#" tabindex="-1" className="signup" aria-disabled="true">Signup</a>
+                                <a href="#" tabIndex="-1" className="signup" aria-disabled="true">Signup</a>
                             </li>
                             <li>
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
