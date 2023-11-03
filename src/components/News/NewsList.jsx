@@ -15,7 +15,7 @@ function NewsList() {
           <img src={newsitem.urlToImage} alt={newsitem.title} />
         </div>
         <div className="news_details">
-          <p>{newsitem.content}</p>
+          <p>{newsitem.title}</p>
           <div className="date d-flex justify-content-start">
             <svg
               className="me-2"
