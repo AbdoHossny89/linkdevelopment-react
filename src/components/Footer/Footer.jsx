@@ -10,7 +10,7 @@ class Footer extends Component {
                         <div className="logo_footer">
                             <div className="mb-3">
                                 <a href="true">
-                                    <img src="images/logo-footer.svg" alt=""  />
+                                    <img src="images/logo-footer.svg" alt="logoFooter"  />
                                 </a>
                             </div>
                             <p>We make technology produce productive, adaptable and sustainable business experiences.</p>
