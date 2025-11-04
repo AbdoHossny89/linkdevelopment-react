@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="container-xl">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="logo-wrapper">
-                        <img src="./../images/logo.svg" alt=""/>
+                        <img src="./../images/logo.svg" alt="logo"/>
                     </div>
     
                     <nav className="menu">
